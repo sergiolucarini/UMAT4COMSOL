@@ -1,0 +1,7 @@
+gfortran -c umat.f; gcc -c UMAT4COMSOL.c; gcc -shared -o UMAT4COMSOL.dll umat.o UMAT4COMSOL.o -lgfortran -lquadmath; comsolbatch -inputfile evp.mph >> logcom.txt
+
+to see ss curve select reaction forces
+
+to see von mises run in the gui
+
+to export diplacements select coords.txt 
