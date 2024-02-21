@@ -1,7 +1,0 @@
-gfortran -c umat.f; gcc -c UMAT4COMSOLfinite.c; gcc -shared -o UMAT4COMSOLfinite.dll umat.o UMAT4COMSOLfinite.o -lgfortran -lquadmath; comsolbatch -inputfile polysaved_emisol1_time2.mph >> logcom.txt
-
-to see ss curve select reaction forces
-
-to see von mises run in the gui
-
-to export diplacements select coords.txt 
