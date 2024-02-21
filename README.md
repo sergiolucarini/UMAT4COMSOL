@@ -7,3 +7,18 @@
 UMAT4COMSOL: An Abaqus user material (UMAT) subroutine wrapper for COMSOL
 # Reference
 S. Lucarini, E. Martinez-Paneda. UMAT4COMSOL: An Abaqus user material (UMAT) subroutine wrapper for COMSOL. Advances in Engineering Software, 2024.
+
+
+Allows using umats in comsol easily
+![fig0](https://github.com/sergiolucarini/UMAT4COMSOL/assets/35807641/8b7c553d-d9bc-4e77-827e-3477687ab032)
+
+
+Crystal plasticity polycrystal Comsol
+![fig5](https://github.com/sergiolucarini/UMAT4COMSOL/assets/35807641/1b029eb9-e530-461d-bb64-b7885a617f70)
+![fig6](https://github.com/sergiolucarini/UMAT4COMSOL/assets/35807641/80bc4935-907f-4a1e-a844-9538ac807330)
+
+
+Hydrogen coupled Crystal plasticity Comsol
+
+![fig9](https://github.com/sergiolucarini/UMAT4COMSOL/assets/35807641/941aa5d7-cfee-451e-a021-a9dbca47ca99)
+
