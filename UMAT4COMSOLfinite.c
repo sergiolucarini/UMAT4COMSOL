@@ -1,6 +1,6 @@
 /** Code for external COMSOL material wrapper to ABAQUS umats:
     Finite strain version
-    Copyright (C) 2024  Sergio Lucarini, Emilio Matinez-Paneda */
+    Copyright (C) 2024  Sergio Lucarini */
 
 #include <math.h>
 #include <stdlib.h>
