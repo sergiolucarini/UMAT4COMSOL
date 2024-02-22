@@ -8,6 +8,9 @@ UMAT4COMSOL: An Abaqus user material (UMAT) subroutine wrapper for COMSOL
 # Reference
 S. Lucarini, E. Martinez-Paneda. UMAT4COMSOL: An Abaqus user material (UMAT) subroutine wrapper for COMSOL. Advances in Engineering Software, 2024.
 
+# Descrition
+UMAT4COMSOL is a C code developed by Sergio Lucarini that serves as an external material to be used in Comsol which calls an abaqus umat to compute mechanical constitutive equations.
+
 
 Allows using abaqus umats in comsol easily
 ![fig0](https://github.com/sergiolucarini/UMAT4COMSOL/assets/35807641/8b7c553d-d9bc-4e77-827e-3477687ab032)
