@@ -5,7 +5,7 @@
      4 celent,dfgrd0,dfgrd1,noel,npt,layer,kspt,kstep,kinc)
 c  WRITE (6,*) '
 c  NOTE:  MODIFICATIONS TO *UMAT FOR ABAQUS VERSION 5.3 (14 APR '94)
-c 
+c  2024 modified SL
 c  (1)  The list of variables above defining the *UMAT subroutine, 
 c  and the first (standard) block of variables dimensioned below, 
 c  have variable names added compared to earlier ABAQUS versions. 
