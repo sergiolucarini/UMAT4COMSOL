@@ -307,13 +307,13 @@ CFIX    10*NSLPTL+2 - NSTATV-4  : additional parameters users may need
 C                                 to characterize the constitutive law 
 C                                 of a single crystal (if there are 
 C                                 any).
-C   Removed by Sergio Lucarini
+C
 C       NSTATV-3               :  number of slip systems in the 1st set
 C       NSTATV-2               :  number of slip systems in the 2nd set
 C       NSTATV-1               :  number of slip systems in the 3rd set
 C       NSTATV                 :  total number of slip systems in all 
 C                                 sets
-C   Remove end
+C
 C
 C-----  Material constants PROPS:
 C
@@ -670,6 +670,14 @@ C-----  Increment of spin associated with the material element: DSPIN
 C     (only needed for finite rotation)
 C
       IF (NLGEOM.NE.0) THEN
+c         if((noel.eq.1).and.((abs(coords(2)-4.2d-2)).lt.0.5d-2))then
+c         write(*,*)'time',time,dtime,coords
+c         write(*,*)'DROT',DROT
+c         write(*,*)'F1',dfgrd1
+c         write(*,*)'F0',dfgrd0
+c         write(*,*)'S0',stress
+c         write(*,*)'DSTRAN',DSTRAN
+c         end if
          DO J=1,3
             DO I=1,3
                TERM(I,J)=DROT(J,I)
@@ -707,7 +715,7 @@ C
       NITRTN=NITRTN+1
 
 C-----  Check whether the current stress state is the initial state
-C      IF (STATEV(1).EQ.0.) THEN Modified by Sergio Lucarini
+C      IF (STATEV(1).EQ.0.) THEN
       IF (TIME(1).EQ.0.) THEN
 
 C-----  Initial state
@@ -775,6 +783,7 @@ C
 C-----  Initial value of the current strength for all slip systems
 C
          CALL GSLPINIT (STATEV(1), NSLIP, NSLPTL, NSET, PROPS(97))
+C         CALL GSLPINIT (STATEV(1), NSLIP, NSLPTL, NSET, PROPS(73))
 
 C-----  Initial value of shear strain in slip systems
 CFIX--  Initial value of cumulative shear strain in each slip systems
@@ -816,11 +825,10 @@ C          Number of slip systems in each set NSLIP
 C          Current slip directions SLPDIR
 C          Normals to current slip planes SLPNOR
 C
-C        Removed by Sergio Lucarini
-C         NSLPTL=NINT(STATEV(NSTATV))
-C         DO I=1,NSET
-C            NSLIP(I)=NINT(STATEV(NSTATV-4+I))
-C         END DO
+         NSLPTL=NINT(STATEV(NSTATV))
+         DO I=1,NSET
+            NSLIP(I)=NINT(STATEV(NSTATV-4+I))
+         END DO
 
          IDNOR=3*NSLPTL
          IDDIR=6*NSLPTL
@@ -1395,7 +1403,11 @@ CFIXA
          STATEV(9*NSLPTL+I)=STATEV(9*NSLPTL+I)+ABS(DGAMMA(I))
 CFIXB
       END DO
-
+c         if((noel.eq.1).and.((abs(coords(2)-4.2d-2)).lt.0.5d-2))then
+c         write(*,*)'stress',stress
+c         write(*,*)'ddsdde',ddsdde
+c         write(*,*)'state',statev
+c         end if
       RETURN
       END
 
@@ -1448,8 +1460,7 @@ C                           local cubic crystal system
 C            ROTATE(i,3) -- direction cosines of direction [0 0 1] in 
 C                           local cubic crystal system
 
-C-----  rotation matrix: ROTATE Modified by Sergio Lucarini plug directly
-C          the rotation matrix 
+C-----  rotation matrix: ROTATE
       DO J=1,3
          DO I=1,3
             ROTATE(I,J)=0.
