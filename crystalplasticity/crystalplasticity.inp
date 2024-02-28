@@ -10190,7 +10190,7 @@
 ** 
 *Material, name=U1
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10221,7 +10221,7 @@
 1.,10.,1.E-5,0.,0.,0.,0.,0.
 *Material, name=U2
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10252,7 +10252,7 @@
 1.,10.,1.E-5,0.,0.,0.,0.,0.
 *Material, name=U3
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10283,7 +10283,7 @@
 1.,10.,1.E-5,0.,0.,0.,0.,0.
 *Material, name=U4
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10314,7 +10314,7 @@
 1.,10.,1.E-5,0.,0.,0.,0.,0.
 *Material, name=U5
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10345,7 +10345,7 @@
 1.,10.,1.E-5,0.,0.,0.,0.,0.
 *Material, name=U6
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10376,7 +10376,7 @@
 1.,10.,1.E-5,0.,0.,0.,0.,0.
 *Material, name=U7
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10407,7 +10407,7 @@
 1.,10.,1.E-5,0.,0.,0.,0.,0.
 *Material, name=U8
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10438,7 +10438,7 @@
 1.,10.,1.E-5,0.,0.,0.,0.,0.
 *Material, name=U9
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10469,7 +10469,7 @@
 1.,10.,1.E-5,0.,0.,0.,0.,0.
 *Material, name=U10
 *Depvar
-    150,
+    172,
 *User Material,TYPE=mechanical,constants=160
 **#1
 168400.,121400.,75400.,0.,0.,0.,0.,0.,
@@ -10503,7 +10503,7 @@
 ** 
 *Step, name=Step-1,nlgeom=YES
 *Static
-0.01, 0.4, 0.01, 0.01
+0.01, 0.4, 0.001, 0.01
 ** 
 ** BOUNDARY CONDITIONS
 ** 
