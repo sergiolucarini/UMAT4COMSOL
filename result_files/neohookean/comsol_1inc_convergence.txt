@@ -1,0 +1,105 @@
+<---- Stationary Solver 1 in Study 1/Solution 1 (sol1) -------------------------
+Started at Jul 10, 2023, 6:34:35 PM.
+           Current Progress:   2 % - Stationary Solver 1
+Memory: 2889/5126 2952/5212
+Continuation solver
+Nonlinear solver
+Number of degrees of freedom solved for: 160083 (plus 38338561 internal DOFs).
+    
+Continuation parameter para = 0.
+           Current Progress:   2 % - Assembling matrices
+Memory: 4485/5845 4597/5922
+           Current Progress:   2 % - Assembling sparsity pattern
+Memory: 4733/5845 4855/5922
+           Current Progress:   2 % - Assembling matrices
+Memory: 4831/5845 4893/5922
+           Current Progress:   2 % - 
+Memory: 4943/5845 5006/5922
+Symmetric matrices found.
+Scales for dependent variables:
+Displacement field (comp3.u): 1
+Orthonormal null-space function used.
+           Current Progress:   2 % - Matrix factorization
+Memory: 4769/5845 4830/5922
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+           Current Progress:   2 % - Solving linear system
+Memory: 6364/6374 6856/6865
+           Current Progress:   2 % - Assembling matrices
+Memory: 6328/6374 6819/6865
+   1           0           0   1.0000000           0    2    1    1        0        0
+-----      Current Progress:  51 % - Constraint handling
+Memory: 6637/6637 7129/7129
+-----      Current Progress:  51 % - Update tangent
+Memory: 7253/7253 7764/7764
+    
+Continuation parameter para = 1.
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7318/7328 7828/7838
+-----      Current Progress:  51 % - Assembling sparsity pattern
+Memory: 7510/7510 8186/8186
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7551/7734 8053/8277
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7562/7758 8063/8277
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 5970/7758 7434/8277
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7685/7758 8191/8277
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7600/7758 8105/8277
+   1        0.84       3e+02   1.0000000        0.84    6    2    3  4.6e-15  5.9e-15
+-----      Current Progress:  51 % - Assembling sparsity pattern
+Memory: 7730/7968 8273/8490
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7780/7968 8284/8490
+-----      Current Progress:  51 % - 
+Memory: 7763/7968 8273/8490
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7662/7968 8166/8490
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7663/7968 8169/8490
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7615/7968 8121/8490
+   2        0.51          67   1.0000000        0.51    7    3    4    7e-15  4.8e-14
+-----      Current Progress:  55 % - Constraint handling
+Memory: 7615/7968 8120/8490
+-----      Current Progress:  55 % - Assembling matrices
+Memory: 7769/7968 8275/8490
+-----      Current Progress:  55 % - 
+Memory: 7963/7968 8469/8490
+-----      Current Progress:  55 % - Matrix factorization
+Memory: 7907/8013 8462/8520
+-----      Current Progress:  55 % - Solving linear system
+Memory: 7965/8013 8474/8520
+-----      Current Progress:  55 % - Assembling matrices
+Memory: 7611/8013 8119/8520
+   3       0.009        0.91   1.0000000       0.009    8    4    5  4.6e-15  5.8e-15
+--------   Current Progress:  84 % - Constraint handling
+Memory: 7797/8013 8367/8520
+--------   Current Progress:  84 % - Assembling matrices
+Memory: 7769/8013 8277/8520
+--------   Current Progress:  84 % - Constraint handling
+Memory: 7660/8013 8168/8520
+--------   Current Progress:  84 % - Matrix factorization
+Memory: 7659/8013 8167/8520
+--------   Current Progress:  84 % - Solving linear system
+Memory: 7669/8013 8177/8520
+--------   Current Progress:  84 % - Assembling matrices
+Memory: 7611/8013 8119/8520
+   4     3.4e-05     0.00094   1.0000000     3.4e-05    9    5    6  5.4e-15  1.5e-15
+---------- Current Progress: 100 % - Constraint handling
+Memory: 7612/8013 8119/8520
+------------------- Current Progress: 198 % - Constraint handling
+Memory: 5420/8013 6992/8520
+Solution time: 76 s. (1 minute, 16 seconds)
+Physical memory: 7.97 GB
+Virtual memory: 8.47 GB
+Ended at Jul 10, 2023, 6:35:51 PM.
+----- Stationary Solver 1 in Study 1/Solution 1 (sol1) ------------------------>
+Run time: 84 s.
+Saving model: C:\Users\slucarin\OneDrive - Imperial College London\paper_wrapper\definitive\neonew\comsol\1inc\neo.mph
+Save time: 2 s.
+Total time: 94 s.
+---------- Current Progress: 100 % - Done
+Memory: 3708/8013 3977/8520

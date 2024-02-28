@@ -1,0 +1,313 @@
+<---- Stationary Solver 1 in Study 1/Solution 1 (sol1) -------------------------
+Started at Jul 10, 2023, 6:24:34 PM.
+           Current Progress:   2 % - Stationary Solver 1
+Memory: 2861/5036 2925/5113
+Continuation solver
+Nonlinear solver
+Number of degrees of freedom solved for: 160083 (plus 38338561 internal DOFs).
+    
+Continuation parameter para = 0.
+           Current Progress:   2 % - Assembling matrices
+Memory: 4423/5799 4498/5872
+           Current Progress:   2 % - Assembling sparsity pattern
+Memory: 4919/5799 5015/5872
+           Current Progress:   2 % - Assembling matrices
+Memory: 4773/5799 4848/5872
+           Current Progress:   2 % - 
+Memory: 4874/5799 4931/5872
+Symmetric matrices found.
+Scales for dependent variables:
+Displacement field (comp3.u): 1
+Orthonormal null-space function used.
+           Current Progress:   2 % - Matrix factorization
+Memory: 4663/5799 4717/5872
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+           Current Progress:   2 % - Solving linear system
+Memory: 6372/6382 6866/6876
+           Current Progress:   2 % - Assembling matrices
+Memory: 6337/6382 6831/6876
+   1           0           0   1.0000000           0    2    1    1        0        0
+-----      Current Progress:  51 % - Constraint handling
+Memory: 6647/6647 7142/7142
+-----      Current Progress:  51 % - Update tangent
+Memory: 7227/7227 7745/7745
+    
+Continuation parameter para = 0.1.
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7324/7333 7836/7846
+-----      Current Progress:  51 % - Assembling sparsity pattern
+Memory: 7585/7756 8121/8273
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7563/7756 8072/8273
+-----      Current Progress:  51 % - 
+Memory: 7728/7756 8230/8273
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7114/7756 7427/8273
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7684/7756 8187/8273
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7589/7756 8092/8273
+   1       0.071         1.5   1.0000000       0.071    6    2    3    3e-15  5.1e-15
+Scales for dependent variables:
+Displacement field (comp3.u): 0.0046
+-----      Current Progress:  51 % - Assembling sparsity pattern
+Memory: 7732/7949 8284/8471
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7788/7966 8291/8492
+-----      Current Progress:  51 % - 
+Memory: 7848/7966 8352/8492
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7712/7966 8220/8492
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7677/7966 8184/8492
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7620/7966 8127/8492
+   2     0.00053     1.3e-05   1.0000000     0.00053    7    3    4  5.8e-15  4.9e-14
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7621/7966 8127/8492
+-----      Current Progress:  51 % - Update tangent
+Memory: 7618/7966 8125/8492
+    
+Continuation parameter para = 0.2.
+-----      Current Progress:  51 % - Assembling matrices
+-----      Current Progress:  51 % - Assembling sparsity pattern
+Memory: 7901/7966 8416/8492
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7769/7966 8275/8507
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7660/7966 8166/8507
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7707/7966 8216/8507
+-----      Current Progress:  51 % - Assembling matrices
+   1       0.035        0.89   1.0000000       0.035   11    4    6  5.3e-15  5.1e-15
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7903/8105 8411/8615
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7912/8105 8420/8615
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7808/8105 8362/8615
+   2     0.00027     7.1e-06   1.0000000     0.00027   12    5    7  4.1e-15  4.9e-14
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7607/8105 8114/8615
+-----      Current Progress:  51 % - Update tangent
+    
+Continuation parameter para = 0.3.
+-----      Current Progress:  51 % - Assembling matrices
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7701/8105 8211/8615
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7748/8105 8259/8615
+-----      Current Progress:  51 % - Assembling matrices
+   1       0.024        0.64   1.0000000       0.024   16    6    9  4.3e-15  5.2e-15
+-----      Current Progress:  51 % - 
+Memory: 8090/8139 8602/8651
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7936/8139 8447/8651
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7946/8139 8458/8651
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7669/8139 8276/8651
+   2     0.00018     4.9e-06   1.0000000     0.00018   17    7   10  7.3e-15  4.9e-14
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7643/8139 8152/8651
+-----      Current Progress:  51 % - Update tangent
+Memory: 7639/8139 8148/8651
+    
+Continuation parameter para = 0.4.
+-----      Current Progress:  51 % - Assembling matrices
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7544/8139 8095/8651
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7790/8139 8298/8651
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7644/8139 8241/8651
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7724/8139 8233/8651
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7733/8139 8244/8651
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7724/8139 8234/8651
+   1       0.018         0.5   1.0000000       0.018   21    8   12  3.8e-15  5.2e-15
+-----      Current Progress:  51 % - Constraint handling
+Memory: 8050/8139 8589/8651
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7923/8139 8433/8651
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7932/8139 8443/8651
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7628/8139 8137/8651
+   2     0.00013     3.8e-06   1.0000000     0.00013   22    9   13  4.3e-15  4.9e-14
+-----      Current Progress:  51 % - Constraint handling
+-----      Current Progress:  51 % - Update tangent
+Memory: 7624/8139 8133/8651
+    
+Continuation parameter para = 0.5.
+-----      Current Progress:  51 % - Assembling matrices
+-----      Current Progress:  51 % - 
+Memory: 7855/8139 8402/8651
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7761/8139 8274/8651
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7762/8139 8274/8651
+-----      Current Progress:  51 % - Assembling matrices
+   1       0.014        0.41   1.0000000       0.014   26   10   15  4.4e-15  5.2e-15
+-----      Current Progress:  51 % - 
+Memory: 8109/8139 8623/8651
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7960/8160 8522/8674
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7960/8160 8473/8674
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7665/8160 8177/8674
+   2     0.00011     3.1e-06   1.0000000     0.00011   27   11   16    5e-15  4.9e-14
+-----      Current Progress:  51 % - Constraint handling
+-----      Current Progress:  51 % - Update tangent
+Memory: 7667/8160 8177/8674
+    
+Continuation parameter para = 0.6.
+-----      Current Progress:  51 % - Assembling matrices
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7643/8160 8327/8674
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7825/8160 8335/8674
+-----      Current Progress:  51 % - 
+Memory: 7909/8160 8422/8674
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7783/8160 8295/8674
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7792/8160 8304/8674
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7783/8160 8295/8674
+   1       0.012        0.34   1.0000000       0.012   31   12   18  3.3e-15  5.2e-15
+-----      Current Progress:  51 % - Constraint handling
+Memory: 8132/8181 8645/8694
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7978/8181 8490/8694
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7987/8181 8500/8694
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7683/8181 8194/8694
+   2     8.9e-05     2.6e-06   1.0000000     8.9e-05   32   13   19  5.6e-15  4.9e-14
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7684/8181 8194/8694
+-----      Current Progress:  51 % - Update tangent
+    
+Continuation parameter para = 0.7.
+-----      Current Progress:  51 % - Assembling matrices
+-----      Current Progress:  51 % - 
+Memory: 7780/8181 8349/8694
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7787/8181 8298/8694
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+-----      Current Progress:  51 % - Assembling matrices
+   1        0.01         0.3   1.0000000        0.01   36   14   21    5e-15  5.2e-15
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7990/8182 8541/8694
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7979/8182 8490/8694
+-----      Current Progress:  51 % - Solving linear system
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7684/8182 8194/8694
+   2     7.7e-05     2.2e-06   1.0000000     7.7e-05   37   15   22  4.7e-15  4.9e-14
+-----      Current Progress:  51 % - Constraint handling
+-----      Current Progress:  51 % - Update tangent
+    
+Continuation parameter para = 0.8.
+-----      Current Progress:  51 % - Assembling matrices
+-----      Current Progress:  51 % - 
+Memory: 7814/8182 8345/8694
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7783/8182 8294/8694
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7793/8182 8304/8694
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7783/8182 8294/8694
+   1       0.009        0.26   1.0000000       0.009   41   16   24    3e-15  5.2e-15
+-----      Current Progress:  51 % - 
+Memory: 8128/8182 8639/8694
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7980/8182 8491/8694
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7978/8182 8490/8694
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7988/8182 8499/8694
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7910/8182 8490/8694
+   2     6.7e-05       2e-06   1.0000000     6.7e-05   42   17   25  3.9e-15  4.8e-14
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7683/8182 8193/8694
+-----      Current Progress:  51 % - Update tangent
+    
+Continuation parameter para = 0.9.
+-----      Current Progress:  51 % - Assembling matrices
+-----      Current Progress:  51 % - Constraint handling
+Memory: 7626/8182 8344/8694
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7842/8182 8352/8694
+-----      Current Progress:  51 % - 
+Memory: 7936/8182 8447/8694
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 7764/8182 8275/8694
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 7821/8182 8332/8694
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7811/8182 8323/8694
+   1       0.008        0.24   1.0000000       0.008   46   18   27  6.4e-15  5.2e-15
+-----      Current Progress:  51 % - 
+Memory: 8156/8182 8668/8694
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 8004/8207 8564/8719
+-----      Current Progress:  51 % - Solving linear system
+Memory: 8013/8207 8524/8719
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 7708/8207 8219/8719
+   2       6e-05     1.8e-06   1.0000000       6e-05   47   19   28  4.2e-15  4.8e-14
+-----      Current Progress:  51 % - Constraint handling
+-----      Current Progress:  51 % - Update tangent
+Memory: 7688/8207 8198/8719
+    
+Continuation parameter para = 1.
+---------  Current Progress:  95 % - Assembling matrices
+---------  Current Progress:  95 % - 
+Memory: 7770/8207 8338/8719
+---------  Current Progress:  95 % - Matrix factorization
+Memory: 7769/8207 8280/8719
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+---------  Current Progress:  95 % - Solving linear system
+Memory: 7778/8207 8289/8719
+---------  Current Progress:  95 % - Assembling matrices
+Memory: 7769/8207 8280/8719
+   1      0.0072        0.22   1.0000000      0.0072   51   20   30  3.9e-15  5.2e-15
+---------  Current Progress:  95 % - Constraint handling
+Memory: 8016/8207 8527/8719
+---------  Current Progress:  95 % - Assembling matrices
+Memory: 8024/8207 8535/8719
+---------  Current Progress:  95 % - 
+Memory: 8120/8207 8632/8719
+---------  Current Progress:  95 % - Matrix factorization
+Memory: 7968/8207 8479/8719
+---------  Current Progress:  95 % - Solving linear system
+---------  Current Progress:  95 % - Assembling matrices
+Memory: 7672/8207 8182/8719
+   2     5.4e-05     1.7e-06   1.0000000     5.4e-05   52   21   31  5.3e-15  4.7e-14
+---------- Current Progress: 100 % - Constraint handling
+Solution time: 318 s. (5 minutes, 18 seconds)
+Physical memory: 8.16 GB
+Virtual memory: 8.67 GB
+Ended at Jul 10, 2023, 6:29:52 PM.
+----- Stationary Solver 1 in Study 1/Solution 1 (sol1) ------------------------>
+Run time: 327 s.
+Saving model: C:\Users\slucarin\OneDrive - Imperial College London\paper_wrapper\definitive\neonew\comsol\neo.mph
+Save time: 7 s.
+Total time: 342 s.
+---------- Current Progress: 100 % - Done
+Memory: 3784/8207 4042/8719

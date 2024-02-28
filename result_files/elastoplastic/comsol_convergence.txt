@@ -1,0 +1,191 @@
+----- Compile Equations: Stationary in Ramp/Solution 1 (sol1) ----------------->
+<---- Dependent Variables 1 in Ramp/Solution 1 (sol1) --------------------------
+Started at Jul 10, 2023, 6:28:51 PM.
+           Current Progress:   1 % - Dependent Variables 1
+Memory: 813/818 907/914
+Solution time: 0 s.
+Physical memory: 813 MB
+Virtual memory: 907 MB
+Ended at Jul 10, 2023, 6:28:51 PM.
+----- Dependent Variables 1 in Ramp/Solution 1 (sol1) ------------------------->
+<---- Stationary Solver 1 in Ramp/Solution 1 (sol1) ----------------------------
+Started at Jul 10, 2023, 6:28:51 PM.
+Continuation solver
+           Current Progress:   2 % - Stationary Solver 1
+Memory: 813/818 906/914
+Nonlinear solver
+Number of degrees of freedom solved for: 4983 (plus 207901 internal DOFs).
+    
+Continuation parameter param = 0.
+Symmetric matrices found.
+Scales for dependent variables:
+Out-of-plane displacement derivative (comp1.solid.wZ): 1
+Displacement field (comp1.u): 0.00051
+Orthonormal null-space function used.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1           0           0   1.0000000           0    2    1    1        0        0
+-----      Current Progress:  51 % - Constraint handling
+Memory: 838/841 1017/1019
+-----      Current Progress:  51 % - Update tangent
+Memory: 841/841 1017/1020
+    
+Continuation parameter param = 0.05.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 853/853 1029/1033
+   1     5.2e-13     4.4e+02   1.0000000     5.2e-13    6    2    3  5.7e-14  2.7e-13
+    
+Continuation parameter param = 0.1.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1     4.5e-13     7.1e+02   1.0000000     4.5e-13   10    3    5  3.9e-14  1.3e-13
+-----      Current Progress:  51 % - Update tangent
+Memory: 857/857 1029/1033
+    
+Continuation parameter param = 0.15.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1     3.1e-13     7.9e+02   1.0000000     3.1e-13   14    4    7  1.6e-14  1.6e-13
+    
+Continuation parameter param = 0.2.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1     1.4e-13     8.5e+02   1.0000000     1.4e-13   18    5    9  8.7e-15  5.2e-14
+    
+Continuation parameter param = 0.25.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1     2.4e-13     9.1e+02   1.0000000     2.4e-13   22    6   11  9.6e-14  1.1e-13
+    
+Continuation parameter param = 0.3.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1     1.2e-13     8.2e+02   1.0000000     1.2e-13   26    7   13  4.2e-14  1.1e-13
+-----      Current Progress:  51 % - Constraint handling
+Memory: 859/859 1027/1033
+    
+Continuation parameter param = 0.35.
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 858/859 1027/1033
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1     1.9e-13     8.9e+02   1.0000000     1.9e-13   30    8   15  4.8e-14  1.4e-13
+    
+Continuation parameter param = 0.4.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1     2.2e-13       9e+02   1.0000000     2.2e-13   34    9   17    5e-14  1.2e-13
+    
+Continuation parameter param = 0.45.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+-----      Current Progress:  51 % - Solving linear system
+Memory: 857/859 1027/1033
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 722/859 898/1033
+   1     2.3e-13     9.9e+02   1.0000000     2.3e-13   38   10   19  3.5e-14  9.7e-14
+    
+Continuation parameter param = 0.5.
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 684/859 855/1033
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1      0.0029       5e+03   1.0000000      0.0029   42   11   21  6.5e-14  8.1e-15
+Scales for dependent variables:
+Out-of-plane displacement derivative (comp1.solid.wZ): 0.00021
+Displacement field (comp1.u): 7.9e-06
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 724/859 895/1033
+   2     0.00039         4.3   1.0000000     0.00039   43   12   22  4.6e-14  1.8e-15
+    
+Continuation parameter param = 0.55.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1      0.0074     5.2e+03   1.0000000      0.0074   47   13   24    1e-13  1.8e-14
+   2      0.0019          27   1.0000000      0.0019   48   14   25  2.8e-14  1.2e-15
+   3     7.4e-06      0.0043   1.0000000     7.4e-06   49   15   26  9.9e-15  1.8e-15
+    
+Continuation parameter param = 0.6.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1      0.0074     1.2e+03   1.0000000      0.0074   53   16   28  6.1e-14  2.5e-14
+   2      0.0012     6.5e+02   1.0000000      0.0012   54   17   29    1e-13  9.1e-15
+   3     0.00011       0.066   1.0000000     0.00011   55   18   30  2.8e-14  6.6e-15
+    
+Continuation parameter param = 0.65.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1      0.0074     4.1e+03   1.0000000      0.0074   59   19   32  4.2e-14  2.1e-14
+   2      0.0012          12   1.0000000      0.0012   60   20   33  6.3e-14  2.5e-15
+   3     2.9e-06     0.00058   1.0000000     2.9e-06   61   21   34  2.4e-14  6.1e-15
+    
+Continuation parameter param = 0.7.
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 720/859 889/1033
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1      0.0077     2.7e+03   1.0000000      0.0077   65   22   36  1.6e-13  3.1e-14
+   2      0.0011         7.9   1.0000000      0.0011   66   23   37  2.1e-14  2.7e-15
+   3     2.2e-06     0.00013   1.0000000     2.2e-06   67   24   38    5e-14  6.9e-15
+    
+Continuation parameter param = 0.75.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1       0.012     2.2e+02   1.0000000       0.012   71   25   40  3.7e-14  3.7e-14
+   2     0.00046         3.4   1.0000000     0.00046   72   26   41  8.4e-14  7.5e-15
+    
+Continuation parameter param = 0.8.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1      0.0089       1e+03   1.0000000      0.0089   76   27   43  1.3e-13    4e-14
+   2     0.00069           9   1.0000000     0.00069   77   28   44  1.8e-13  1.8e-14
+-----      Current Progress:  51 % - Constraint handling
+Memory: 720/859 902/1033
+    
+Continuation parameter param = 0.85.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1      0.0092     1.4e+03   1.0000000      0.0092   81   29   46  1.7e-14    4e-14
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 719/859 902/1033
+   2      0.0013         9.6   1.0000000      0.0013   82   30   47    1e-13  1.6e-14
+   3     7.5e-06      0.0012   1.0000000     7.5e-06   83   31   48    3e-14  3.5e-15
+    
+Continuation parameter param = 0.9.
+-----      Current Progress:  51 % - Assembling matrices
+Memory: 720/859 902/1033
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1       0.014     4.3e+03   1.0000000       0.014   87   32   50  1.3e-14  4.6e-14
+   2      0.0052     5.2e+02   1.0000000      0.0052   88   33   51  1.2e-13  8.8e-15
+   3     0.00027        0.18   1.0000000     0.00027   89   34   52  1.5e-13  3.4e-15
+    
+Continuation parameter param = 0.95.
+-----      Current Progress:  51 % - Matrix factorization
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1       0.016     1.1e+03   1.0000000       0.016   93   35   54  2.7e-13  6.3e-14
+-----      Current Progress:  51 % - Constraint handling
+Memory: 722/859 903/1033
+-----      Current Progress:  51 % - Assembling matrices
+   2      0.0021          78   1.0000000      0.0021   94   36   55  5.8e-14    8e-15
+   3      0.0002        0.19   1.0000000      0.0002   95   37   56  9.6e-14  6.2e-15
+    
+Continuation parameter param = 1.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1       0.034     9.8e+02   1.0000000       0.034   99   38   58  8.6e-14  1.1e-13
+-----      Current Progress:  51 % - Matrix factorization
+   2      0.0076     1.7e+02   1.0000000      0.0076  100   39   59  2.8e-13  3.9e-14
+   3     0.00092         1.6   1.0000000     0.00092  101   40   60  1.4e-13  1.6e-14
+-----      Current Progress:  51 % - Update tangent
+Memory: 723/859 904/1033
+    
+Continuation parameter param = 1.05.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1        0.14     1.8e+03   1.0000000        0.14  105   41   62  5.6e-14    5e-13
+-----      Current Progress:  51 % - Matrix factorization
+Memory: 722/859 919/1033
+   2       0.039     5.5e+02   1.0000000       0.039  106   42   63  9.7e-13  7.7e-14
+   3        0.01          62   1.0000000        0.01  107   43   64  5.9e-13  6.4e-14
+   4     0.00064        0.75   1.0000000     0.00064  108   44   65    3e-13  2.6e-14
+-----      Current Progress:  51 % - Update tangent
+Memory: 692/859 888/1033
+    
+Continuation parameter param = 1.1.
+Iter      SolEst      ResEst     Damping    Stepsize #Res #Jac #Sol   LinErr   LinRes
+   1       0.077     1.1e+03   1.0000000       0.077  112   45   67  1.1e-12  2.1e-13
+---------  Current Progress:  98 % - Constraint handling
+Memory: 694/859 890/1033
+   2       0.027     1.1e+03   1.0000000       0.027  113   46   68  5.7e-13  9.6e-14
+---------  Current Progress:  98 % - Solving linear system
+Memory: 694/859 892/1033
+   3      0.0058          30   1.0000000      0.0058  114   47   69  8.7e-13  1.5e-14
+   4     0.00059         4.7   1.0000000     0.00059  115   48   70  1.9e-13  3.6e-14
+---------- Current Progress: 100 % - Constraint handling
+Memory: 693/859 895/1033
+Solution time: 10 s.
+Physical memory: 859 MB
+Virtual memory: 1029 MB
+Ended at Jul 10, 2023, 6:29:01 PM.
