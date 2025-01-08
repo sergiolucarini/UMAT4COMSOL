@@ -174,7 +174,7 @@ C     potentially activated, ND could be taken as twelve (12).
 c
       include 'aba_param.inc'
 c
-      CHARACTER*8 CMNAME
+c      CHARACTER*8 CMNAME
       EXTERNAL F
 
       dimension stress(ntens),statev(nstatv),
