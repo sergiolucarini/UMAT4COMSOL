@@ -1,6 +1,6 @@
 /** Code for external COMSOL material wrapper to ABAQUS umats:
     Small strain version
-    Copyright (C) 2024  Sergio Lucarini */
+    Copyright (C) 2023  Sergio Lucarini  */
 
 #include <math.h>
 #include <stdlib.h>
@@ -12,14 +12,14 @@
 #define EXPORT
 #endif
 
-extern void umat_(double stress[6], double *statev, double ddsdde[6][6],
-  double sse, double spd, double scd, double rpl, double ddsddt[6],
-  double drplde[6], double drpldt, double stran[6], double dstran[6],
-  double time[2], double *dtime, double temp, double dtemp, double predef[1],
-  double dpred[1], char cmname, int *ndi, int *nshr, int *ntens, int *nstatv,
-  double *props, int *nprops, double coords, double drot, double *pnewdt,
-  double celent, double dfgrd0[3][3], double dfgrd1[3][3], int noel, int npt,
-  int layer, int kspt, int kstep, int kinc);
+extern void umat_(double stress[6], double *statev, double ddsdde[][6],
+  double sse[1], double spd[1], double scd[1], double rpl[1], double ddsddt[6],
+  double drplde[6], double drpldt[1], double stran[6], double dstran[6],
+  double time[2], double dtime[1], double temp[1], double dtemp[1], double predef[1],
+  double dpred[1], double cmname[1], int *ndi, int *nshr, int *ntens, int *nstatv,
+  double *props, int *nprops, double coords[3], double drot[][3], double *pnewdt,
+  double celent[1], double dfgrd0[3][3], double dfgrd1[][3], int *noel, int npt[1],
+  int layer[1], int kspt[1], int kstep[1], int kinc[1]);
 
 EXPORT int eval(double e[6],         // Input: Strain tensor components in Voigt order (xx,yy,zz,yz,zx,xy)
                 double s[6],         // Output: Cauchy stress components in Voigt order (xx,yy,zz,yz,zx,xy)
@@ -31,6 +31,7 @@ EXPORT int eval(double e[6],         // Input: Strain tensor components in Voigt
                 char *errMsg // Error message argument, output, optional
                   ) { 		
   int ignoredi;
+  int ignoredi1[1];
   double ignoredd;
   double ignoredd1[1];
   double ignoredd2[2];
@@ -39,7 +40,10 @@ EXPORT int eval(double e[6],         // Input: Strain tensor components in Voigt
   double time[2];
   double ddsdde[6][6];
   double stress[6];
+  double coords[3];
   double dtime[1];
+  int nprops;
+  int noel;
   int ndi = 3;
   int nshr = 3;
   int ntens = 6;
@@ -52,6 +56,7 @@ EXPORT int eval(double e[6],         // Input: Strain tensor components in Voigt
 
 // initialise
   nstatev=nStates1[0]-13;
+  nprops=nPar[0];
   pnewdt=1.0;
   time[0]=1.0*states1[nstatev];
   time[1]=1.0*states1[nstatev];
@@ -78,14 +83,14 @@ EXPORT int eval(double e[6],         // Input: Strain tensor components in Voigt
   stress[5]=1.0*states1[nstatev+12];
   
 // umat
-    umat_(&stress[0],&states1[0],&ddsdde[0],ignoredd,ignoredd,ignoredd,ignoredd,
-     ignoredd6,ignoredd6,ignoredd,&et[0],&de[0],&time[0],&dtime[0],
-     ignoredd,ignoredd,ignoredd1,ignoredd1,ignoredd,
-     &ndi,&nshr,&ntens,&nStates1[0],&par[0],&nPar[0],ignoredd,ignoredd,&pnewdt,ignoredd,
-     ignoredd33,ignoredd33,ignoredi,ignoredi,ignoredi,ignoredi,
-     ignoredi,ignoredi);
     if (pnewdt<1) {errMsg="no conv"; return 0;};
-	
+     umat_(&stress[0],&states1[0],&ddsdde[0],ignoredd1,ignoredd1,ignoredd1,ignoredd1,
+      ignoredd6,ignoredd6,ignoredd1,&et[0],&de[0],&time[0],&dtime[0],
+      ignoredd1,ignoredd1,ignoredd1,ignoredd1,ignoredd1,
+      &ndi,&nshr,&ntens,&nStates1[0],&par[0],&nprops,&coords[0],ignoredd33,&pnewdt,ignoredd1,
+      ignoredd33,ignoredd33,&noel,ignoredi1,ignoredi1,ignoredi1,
+      ignoredi1,ignoredi1);
+      if (pnewdt<1) {errMsg="no conv"; return 0;}; 	
 // save state
   states1[nstatev]=states1[10]+dtime[0];
   states1[nstatev+1]=1.*e[0];
